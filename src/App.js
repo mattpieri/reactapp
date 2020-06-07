@@ -19,7 +19,7 @@ const App = () => {
 
     const postMultipleChoice = async () => {
       
-      let prompt = document.getElementById('prompt1').value;
+      let prompt = document.getElementById('prompt').value;
       let gameId = document.getElementById('gameId').value;
       let answer1 = document.getElementById('answer1').value;
       let answer2 = document.getElementById('answer2').value;
